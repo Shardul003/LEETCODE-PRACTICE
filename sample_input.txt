@@ -1,0 +1,1 @@
+This is a short test paragraph. It should be far shorter than model limits and will be used to exercise the chunker.\n\nSecond paragraph to verify multiple chunks are handled correctly.

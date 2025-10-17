@@ -18,7 +18,7 @@ overlap = min(128, max(0, chunk_size // 10))
 chunker = chunkerify(tokenizer, chunk_size=chunk_size)
 
 # Load your text
-with open(r"C:\RAG\sample_input.txt", "r", encoding="utf-8") as f:
+with open(r"C:\RAG\2025_2026.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
 # Perform semantic chunking (use overlap to preserve continuity)
@@ -57,9 +57,10 @@ for c in chunks:
 chunks = final_chunks
 
 # Save chunks to folder
-output_folder = r"C:\RAG\Chunks1"
+output_folder = r"C:\RAG\Chunks2"
 os.makedirs(output_folder, exist_ok=True)
 
 for i, chunk in enumerate(chunks, start=1):
     with open(os.path.join(output_folder, f"chunk{i}.txt"), "w", encoding="utf-8") as f:
         f.write(chunk)
+        
