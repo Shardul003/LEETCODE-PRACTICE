@@ -9,3 +9,9 @@ Built secure PDF ingestion and storage using MongoDB + GridFS, added end-to-end 
 
 • Built an AI-driven recruitment system using Streamlit, Gemini API, and SQLite to parse CVs, extract skills, analyse JDs, and compute match-scores with structured insights.
 • Engineered batch-processing pipelines for multi-CV ingestion, text extraction (PDF/DOCX/TXT), ranking logic, candidate–JD mapping, and automated email workflows.
+
+
+
+• Built an AI-driven recruitment system using Streamlit, Gemini API, and SQLite to parse CVs, extract skills, analyse JDs, and compute match-scores with structured insights.
+• Engineered batch-processing pipelines for multi-CV ingestion, text extraction (PDF/DOCX/TXT), ranking logic, candidate–JD mapping, and automated email workflows.
+• Implemented team-fit and culture-fit prediction modules, personality analysis, and visual analytics using Plotly for recruiter decision suppor
