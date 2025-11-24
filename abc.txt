@@ -1,0 +1,5 @@
+Developed ClinIQ AI, a Streamlit-based medical assistant integrating Google Gemini 2.0 for automated medical report analysis, symptom triage, and health-related conversational responses.
+
+Implemented a multi-agent system (Appointment Scheduler, Patient Triage, Doctor Assistant) with workflow automation, SMTP email notifications, and structured clinical guidance generation.
+
+Built secure PDF ingestion and storage using MongoDB + GridFS, added end-to-end logging, custom UI components, and automated extraction, processing, and delivery of medical insights
